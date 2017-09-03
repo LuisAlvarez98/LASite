@@ -4,6 +4,13 @@
   background-color: #161937 ;
   position: relative;
 }
+.fa{
+  margin-right: 10px;
+}
+.btn{
+  margin-top: 10px;
+  width: 175px; 
+}
 .items{
     margin: 0;
     color: white;
