@@ -9,7 +9,7 @@
 }
 .btn{
   margin-top: 10px;
-  width: 175px; 
+  width: 175px;
 }
 .items{
     margin: 0;
@@ -35,4 +35,7 @@ nav{
 }
 .content{
   text-align: center;
+}
+.card-panel{
+  background-color:#161937;
 }
