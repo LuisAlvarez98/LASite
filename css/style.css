@@ -1,7 +1,23 @@
 .main-container{
   height:500px;
   width:100%;
-  background-color: #90a4ae ;
+  background-color: #161937 ;
+  position: relative;
+}
+.items{
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+body{
+  background-color: #1d2142;
+}
+nav{
+    background-color: #161937 ;
 }
 .box{
   width: 300px;
