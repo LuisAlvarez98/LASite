@@ -48,7 +48,7 @@
   font-size: 20px;
 }
 .box{
-  width: 100px;
+  width: 200px !important;
   height: 150px;
   margin: 10px 10px;
   display: inline-block;
@@ -60,6 +60,7 @@
 .box.luga{
   background-image: url("../img/luga.png");
   background-size: 100%;
+  width: 200px !important;
 }
 .box p{
   margin: 0;
