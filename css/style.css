@@ -30,6 +30,10 @@
 .about-content{
   padding: 50px;
 }
+.about-content h4{
+  text-align: center;
+  margin-bottom: 50px;
+}
 .aboutme p{
   font-size: 20px;
 }
@@ -56,6 +60,7 @@
   position: relative;
   background-image: url("../img/beDone.png");
   background-size: 100%;
+  border-radius: 10%;
 }
 .box.luga{
   background-image: url("../img/luga.png");
@@ -80,7 +85,7 @@
    font-size: 12px;
 }
 .avatar{
-  height: 300px;
+  height: 200px;
   margin-bottom: 20px;
 }
 .parallax-container{
@@ -89,7 +94,7 @@ background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 95%,
 background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 95%,rgba(0,0,0,0.65) 99%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 95%,rgba(0,0,0,0.65) 99%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
-height: 600px!important;
+height: 800px!important;
 }
 .projects{
   margin: 80px 60px;
@@ -105,4 +110,7 @@ height: 600px!important;
 }
 nav{
   background-color: transparent;
+}
+.info{
+  font-size: 12px;
 }
