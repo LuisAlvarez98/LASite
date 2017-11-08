@@ -86,8 +86,9 @@
    font-size: 12px;
 }
 .avatar{
-  height: 200px;
+  height: 300px;
   margin-bottom: 20px;
+  border-radius: 50%;
 }
 .parallax-container{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+95,0+99,0.65+99 */
