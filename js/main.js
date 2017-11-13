@@ -1,6 +1,8 @@
 $(document).ready(function(){
   //Materialize
-      $('.parallax').parallax();
+    $('.parallax').parallax();
+    $(".button-collapse").sideNav();
+
     $("#button-projects").click(function() {
       $('html, body').animate({
           scrollTop: $("#projects").offset().top
