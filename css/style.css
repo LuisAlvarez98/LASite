@@ -36,7 +36,7 @@
   margin-bottom: 50px;
 }
 .aboutme p{
-  font-size: 20px;
+  font-size: 12px;
 }
 .academic{
   background-color: white;
@@ -86,9 +86,11 @@
    font-size: 12px;
 }
 .avatar{
-  height: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 20px
+  position: relative;
+  width: 100%;
 }
+
 hr{
   border: 0;
   height: 1px;
