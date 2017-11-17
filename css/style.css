@@ -61,8 +61,19 @@
   background-size: 100%;
   border-radius: 10%;
 }
+.img-bg{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .box.luga{
   background-image: url("../img/luga.png");
+  background-size: 100%;
+  width: 200px !important;
+}
+.box.comesolo{
+  background-image: url("../img/comesolo.png");
   background-size: 100%;
   width: 200px !important;
 }
