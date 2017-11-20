@@ -38,8 +38,11 @@
 .aboutme p{
   font-size: 11.5px;
 }
-.academic{
+.skills{
   background-color: white;
+}
+.academic{
+  background-color:#edeeef;
 }
 .academic h4{
   margin:0;
@@ -140,4 +143,11 @@ nav{
 }
 .info{
   font-size: 12px;
+}
+.icons{
+  font-size: 70px!important;
+  color:black;
+}
+.skills{
+  padding: 115px 20px;
 }
