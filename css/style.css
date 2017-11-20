@@ -117,12 +117,12 @@ background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 95%,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
 }
 @media screen and (min-width: 480px) {
-  .parallax-container{
+  .parallax-container.main-parallax{
     height:  600px!important;
   }
 }
 @media screen and (min-width: 1024px) {
-  .parallax-container{
+  .parallax-container.main-parallax{
     height:  800px!important;
   }
 }
@@ -146,8 +146,19 @@ nav{
 }
 .icons{
   font-size: 70px!important;
-  color:black;
+  color:white;
 }
-.skills{
-  padding: 115px 20px;
+
+.container-icons{
+  color: white;
+   margin: 0;
+   position: absolute;
+   background: transparent;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%)
+}
+.icon-block i{
+  font-size:80px;
 }
