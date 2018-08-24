@@ -182,3 +182,8 @@ nav{
   color: white;
   font-size: 90px!important;
 }
+.rounded-img{
+      border-radius: 50%;
+      width: 225px;
+      height:225px;
+}
