@@ -1,3 +1,6 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
 .main-container{
   height:200px;
   width:100%;
@@ -72,6 +75,11 @@
 }
 .box.luga{
   background-image: url("../img/luga.png");
+  background-size: 100%;
+  width: 200px !important;
+}
+.box.dungeon{
+  background-image: url("../img/dungeon.jpeg");
   background-size: 100%;
   width: 200px !important;
 }
@@ -159,6 +167,7 @@ nav{
   }
   .section.form{
     top: 0%;
+    margin-top: 35px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -167,6 +176,7 @@ nav{
   }
   .section.form{
     top: 0%;
+    margin-top: 35px;
   }
 }
 .container{
@@ -184,3 +194,51 @@ nav{
 .button3 {border-radius: 8px;}
 .button4 {border-radius: 12px;}
 .button5 {border-radius: 50%;}
+
+/*hacks*/
+.container-cemex {
+  position: relative;
+  width: 100%;
+}
+.container-hack-mty {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  width: 70%;
+  height: 325px;
+}
+
+.overlay-hackmty{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 94px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#757575;
+}
+
+.container-hack-mty:hover .overlay-hackmty{
+  opacity: 1;
+}
+.overlay-hackcemex{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 94px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#757575;
+}
+
+.container-cemex:hover .overlay-hackcemex{
+  opacity: 1;
+}
